@@ -1,4 +1,5 @@
 gametitle=Jak 3 (U) (SCUS-97330)
+// This CRC corresponds to an xdelta patched version of the game, needed for RetroAchievements. This is otherwise the exact same experience as the base game.
 
 [Widescreen 16:9]
 gsaspectratio=16:9
