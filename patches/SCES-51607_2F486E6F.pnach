@@ -3,10 +3,11 @@ gametitle=Ratchet & Clank 2 (PAL-M5) (SCES-51607)
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=ElHecht
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 
 // enable widescreen mode in options
 patch=1,EE,e0010400,extended,001a7c28 // check 001a7c28 matches value xxxx0400
-patch=1,EE,201a7c38,extended,01010100 // 01010000
+patch=1,EE,001a7c39,extended,00000001 // 0
 
 
 // values to check for loop
@@ -330,5 +331,3 @@ patch=1,EE,2037a6cc,extended,3c013f40 // 00000000 hor fov hud and menu
 patch=1,EE,2037a6d0,extended,4481f000 // 00000000
 patch=1,EE,2037a6dc,extended,461e0002 // 00000000
 patch=1,EE,2037a6f4,extended,14600008 // 10600008
-
-
