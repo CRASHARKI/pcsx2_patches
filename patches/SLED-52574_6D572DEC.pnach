@@ -1,0 +1,5 @@
+gametitle=Crash Bandicoot - Unlimited & Spyro - A Hero's Tail [Demo]
+
+[Time Limit Stopper]
+description=Stop the time limit in the Crash Bandicoot Unlimited demo.
+patch=1,EE,00BD0483,extended,00000000
