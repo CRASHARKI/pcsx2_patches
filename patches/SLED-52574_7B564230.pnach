@@ -1,4 +1,9 @@
 gametitle=Crash Bandicoot - Unlimited & Spyro - A Hero's Tail [Demo]
 
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=CRASHARKI
+description=Enable native widescreen in the Crash Bandicoot Unlimited demo. Note: In this version of the game, cutscenes will appear zoomed out when started with widescreen enabled.
+
 [Time Limit Stopper]
 description=Stop the time limit in the Crash Bandicoot Unlimited demo.

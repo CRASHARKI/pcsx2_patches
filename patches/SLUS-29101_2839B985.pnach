@@ -1,5 +1,11 @@
 gametitle=Crash Twinsanity & Spyro - A Hero's Tail [Demo]
 
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=CRASHARKI
+description=Enable native widescreen in the Crash Twinsanity demo. Note: In this version of the game, cutscenes will appear zoomed out when started with widescreen enabled.
+patch=1,EE,003173A9,byte,01 //00
+
 [Time Limit Stopper]
 description=Stop the time limit in the Crash Twinsanity demo.
 patch=1,EE,00BE9F83,extended,00000000

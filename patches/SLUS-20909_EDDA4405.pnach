@@ -1,0 +1,7 @@
+gametitle=Crash Twinsanity (USA) Press Build
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=CRASHARKI
+description=Enable native widescreen. Note: In this version of the game, cutscenes will appear zoomed out when started with widescreen enabled.
+patch=1,EE,002FD739,byte,01 //00
