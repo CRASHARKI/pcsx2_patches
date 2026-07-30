@@ -3,7 +3,7 @@ gametitle=Burnout 3 - Takedown (NTSC-A) SLAJ-25053 9EEBE6D4
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=1,EE,00665BCD,extended,01
 patch=1,EE,204E0838,extended,3FAAAAAB
 patch=1,EE,204E0A7C,extended,3FE38E39

@@ -3,7 +3,7 @@ gametitle=The Chronicles of Narnia - The Lion, the Witch and the Wardrobe (PAL-S
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=1,EE,00633DC5,extended,01
 patch=0,EE,0024036C,word,3C013F40
 patch=0,EE,002429C0,word,3C013F40

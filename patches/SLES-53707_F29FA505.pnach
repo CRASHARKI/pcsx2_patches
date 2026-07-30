@@ -3,7 +3,7 @@ gametitle=Chroniken von Narnia, Die - Der König von Narnia (PAL-G) SLES-53707 F
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=1,EE,006337C5,extended,01
 patch=0,EE,0024036C,word,3C013F40
 patch=0,EE,002429C0,word,3C013F40
