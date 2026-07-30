@@ -20,7 +20,7 @@ permissions:
 jobs:
   release:
     name: Publish release
-    if: github.repository == 'PCSX2/pcsx2_patches'
+    if: github.repository == 'CRASHARKI/pcsx2_patches'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
