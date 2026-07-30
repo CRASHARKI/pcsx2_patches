@@ -2,8 +2,11 @@ gametitle=The Simpsons - Hit & Run (PAL-M4) SLES-51897 73E68475
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=PeterDelta
+author=PeterDelta & ElHecht
 description=Renders the game in 16:9 aspect ratio.
+// 16:9 ver- by ElHecht
+patch=1,EE,0031eea4,word,00000000 // 10400004 Main Menu & Shops
+// Values by PeterDelta
 patch=0,EE,001389C0,word,3C013FE3
 patch=0,EE,001389C4,word,34218E39
 patch=0,EE,00142EF8,word,3C013FE3

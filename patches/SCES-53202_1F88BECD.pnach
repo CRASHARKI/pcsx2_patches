@@ -2,8 +2,8 @@ gametitle=Tekken 5 (PAL-M5) (SCES-53202) 1F88BECD
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=ElHecht & PeterDelta
-description=Corrects display cropping to 16:9. Based on NTSC version of nemesis2000
+author=nemesis2000; ported by ElHecht & PeterDelta
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=1,EE,003F8ADB,extended,01 //widescreen option enable
 
 patch=1,EE,00340bb0,word,3c013f40 //both fov+

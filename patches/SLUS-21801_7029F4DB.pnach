@@ -3,7 +3,7 @@ gametitle=Need for Speed - Undercover (NTSC-U) SLUS-21801 7029F4DB
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=0,EE,006533B0,word,3F400000
 
 [Remove Blur]

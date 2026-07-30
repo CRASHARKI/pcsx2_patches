@@ -2,8 +2,11 @@ gametitle=The Simpsons - Hit & Run (NTSC-U) SLUS-20624 FC99EC8C
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=PeterDelta
+author=PeterDelta & ElHecht
 description=Renders the game in 16:9 aspect ratio.
+// 16:9 ver- by ElHecht
+patch=1,EE,0031d674,word,00000000 // 10400004 Main Menu & Shops
+// Values by PeterDelta
 patch=0,EE,00138990,word,3C013FE3
 patch=0,EE,00138994,word,34218E39
 patch=0,EE,00142EC8,word,3C013FE3

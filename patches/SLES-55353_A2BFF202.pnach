@@ -3,7 +3,7 @@ gametitle=Need for Speed - Undercover (PAL-R) SLES-55353 A2BFF202
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=0,EE,00653630,word,3F400000
 
 [NTSC Mode]
