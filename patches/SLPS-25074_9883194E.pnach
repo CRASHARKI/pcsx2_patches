@@ -49,3 +49,11 @@ gsinterlacemode=1
 author=asasega & synce
 description=Progressive Scan Hack
 patch=1,EE,2022E3CC,extended,00000000
+
+[Viewfinder Stick Swap]
+author=DAOWAce
+description=Swaps the analog stick functions while using the Camera Obscura viewfinder.
+
+patch=1,EE,20189A14,extended,90620193
+patch=1,EE,20189A28,extended,90620194
+patch=1,EE,20208020,extended,24040000
