@@ -3,7 +3,7 @@ gametitle=Grand Theft Auto - Vice City (PAL-M) (v2.03) SLES-51061 CFCB0D20
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=1,EE,004B17B8,extended,01
 patch=0,EE,0024343C,extended,AC
 patch=0,EE,00252BA0,extended,AC

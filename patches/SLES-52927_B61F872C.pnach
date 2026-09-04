@@ -3,7 +3,7 @@ gametitle=Grand Theft Auto: San Andreas (PAL-G) (v2.01) SLES-52927 B61F872C
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=1,EE,0070056F,extended,01
 patch=0,EE,0021E040,extended,AC
 patch=0,EE,0020A4F8,extended,AC

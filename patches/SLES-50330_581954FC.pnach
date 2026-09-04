@@ -3,7 +3,7 @@ gametitle=Grand Theft Auto III (v1.60) (PAL-M) SLES-50330 581954FC
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=PeterDelta
-description=Corrects display cropping to 16:9.
+description=Enable enhanced native widescreen. (Original widescreen uses vertical cropping; Enhanced expands the horizontal view.)
 patch=1,EE,00417C4C,extended,01
 patch=0,EE,00253EB4,extended,AC
 patch=0,EE,0025EE70,extended,AC

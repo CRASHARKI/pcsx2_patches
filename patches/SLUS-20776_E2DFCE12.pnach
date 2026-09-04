@@ -2,7 +2,7 @@ gametitle=Spider-Man 2 (NTSC-U) SLUS-20776 E2DFCE12
 
 [Widescreen 16:9]
 gsaspectratio=16:9
-author=flameofrecca, PeterDelta & CRASHARKI
+author=flameofrecca, CRASHARKI & PeterDelta
 description=Renders the game in 16:9 aspect ratio.
 patch=1,EE,2067A910,word,3F947AE1 //vertical fov 3f5eb852
 patch=1,EE,2067A908,word,3C28A2F7 //zoom value 3c0efa35
@@ -92,7 +92,7 @@ patch=1,EE,2072421C,word,42340000  //gauge_hero_01 42700000
 
 
 [60 FPS]
-author=asasega + CRASHARKI
+author=asasega & CRASHARKI
 description=Patches the game to run at 60 FPS (Might need 130% EE Overclock to be stable on heavy scenes).
 patch=1,EE,0060A9A0,word,00000001 //00000002
 patch=1,EE,E0010001,extended,005E3910
