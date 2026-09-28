@@ -3,7 +3,7 @@ gametitle=Jak 3 (PAL-M7) (SCES-52460)
 [Widescreen 16:9]
 gsaspectratio=16:9
 author=ElHecht
-description=Enable native widescreen
+description=Enable native widescreen.
 patch=1,EE,207d6158,extended,0014877D // 00146171 force native 16:9 mode
 
 // Disabled due to causing black texture flickering in desert areas.
